@@ -1,0 +1,252 @@
+html * {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+:root {
+  --primary-hazel: #D9B18F;
+  --primary-blue: #A7CFF2;
+  --primary-orange: #D95D30;
+  --primary-brown: #A64B29;
+  --primary-dark-brown: #733122;
+}
+
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.container-margin {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.menu-btn {
+  background-color: var(--primary-blue);
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.card {
+  width: 10rem;
+  height: 12rem;
+  position: relative;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.adjust-img {
+  width: 100%;
+}
+
+.adjust-container {
+  /* margin-top: 20%; */
+  margin: auto;
+  width: 100%;
+}
+
+.adjust-row {
+  margin: auto;
+  width: 100%;
+}
+
+.clicked {
+  border-width: 5px;
+  border-color: yellow;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td {
+  width: 25%;
+}
+
+#ruleBtn {
+  background-color: var(--primary-blue);
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-left: 16px;
+  margin-top: 0%;
+}
+
+
+#ruleBtn:hover, #settingsBtn:hover, #signUpBtn:hover, #signInBtn:hover{
+  background-color:rgb(248, 249, 250);
+  color: black;
+}
+
+#navNewGameBtn {
+  margin-right: 16px;
+  margin-top: 0%;
+}
+
+#settingsBtn {
+  background-color: var(--primary-blue);
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-left: 16px;
+  margin-top: 0%;
+}
+
+#signUpBtn {
+  background-color: var(--primary-blue);
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-left: 16px;
+  margin-top: 0%;
+}
+
+#signInBtn {
+  background-color: var(--primary-blue);
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-left: 16px;
+  margin-top: 0%;
+}
+
+#selectModeBtn {
+  background-color: var(--primary-blue);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+#selectModeBtn:hover{
+  background-color:white;
+  color: black;
+}
+
+#cardSelectedAlert {
+  display: none;
+  margin-bottom: 1;
+}
+
+#randomError {
+  display: none;
+}
+
+.testimonialStyleContainer {
+  border-radius: 0% 100% 0% 100% / 30% 0% 100% 70%;
+  height: 240px;
+  position: relative;
+  background-color: white;
+}
+
+.testimonialTextContainer {
+  background-color: var(--primary-hazel);
+  height: 180px;
+}
+
+.testimonialSentenceLg {
+  margin-top: 10px;
+  font-size: 2.5rem;
+}
+
+.testimonialSentenceSm {
+  margin-top: 40px;
+}
+
+.aboutContainer {
+  height: 840px;
+}
+
+.AboutInfo {
+  /* padding-top: 100px; */
+}
+
+.AboutInfoTitle {
+  font-size: 55px;
+}
+
+.personInfoContainer {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  margin-top: 50px;
+}
+
+.personInfoStyleContainer {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  border: 2px solid black;
+  background-color: var(--primary-pink);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+}
+
+.personInfoTextContainer {
+  height: 90%;
+  background-color: white;
+  border-top: none;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.aboutTextContainer {
+  height: 70%;
+  /* background-color: yellowgreen; */
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 40px;
+  font-size: 13px;
+}
+
+.aboutSigContainer {
+  /* background-color: red; */
+  font-weight: 900;
+  margin-left: 50%;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  margin-left: 4%;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.PersonImg {
+  position: absolute;
+  bottom: 0px;
+  height: 150px;
+}
+
+
+.username {
+  font-weight: bold;
+}
+
+.fade-out {
+  animation-name: fadeOut;
+  animation-duration: 2s;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
