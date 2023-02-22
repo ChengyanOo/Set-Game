@@ -13,8 +13,8 @@ html * {
 .container-fluid {
   padding-left: 15px;
   padding-right: 15px;
-  overflow-y: auto;
-  overflow-x: hidden;
+/*   overflow-y: auto;
+  overflow-x: hidden; */
 }
 
 .container-margin {
